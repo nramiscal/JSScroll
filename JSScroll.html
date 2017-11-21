@@ -37,7 +37,7 @@
 
 			el.innerHTML = el.innerHTML+character;
 
-
+			// corrected last character not displaying properly
 			if(character_counter > words[word_counter].length)
 			{
 				word_counter++; 	//choose a different word
@@ -48,7 +48,7 @@
 					word_counter = 0;
 			}
 		}
-		setInterval(updateText,600);
+		setInterval(updateText,600); // slowed down interval
 	</script>
 
 </body>
